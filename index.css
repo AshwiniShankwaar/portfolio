@@ -1,0 +1,372 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;
+    background: azure;
+    -webkit-font-smoothing: antialiased;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+._14{
+    text-align: center;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-instagram:hover {
+    background-color: #f34d45;
+}
+.fa-pinterest {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-pinterest:hover {
+    background-color: #a90c03;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+body {
+  background: azure;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+nav {
+  background: black;
+  color: white;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  justify-content: space-around;
+  z-index: 1;
+}
+nav ul {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+  margin: 0px;
+  padding-top: 5px;
+  justify-content: space-around;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(139, 139, 245);
+}
+#logo {
+  margin-top: 10px;
+  visibility:visible;
+}
+#logo h2 {
+  padding: 0px;
+  margin: 0px;
+}
+#Banner {
+  background: url(./nasa-Q1p7bh3SHj8-unsplash-01-01.jpeg);
+  background-size: 100%;
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+#Banner h1 {
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  width: 80%;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-size: 40px;
+  font-family: Georgia, serif;
+  color: white;
+}
+#Banner p{
+    width: 80%;
+    color:#fff;
+    font-size: 25px;
+ 
+    margin: 0px 0px;
+}
+#Contact {
+  height: 390px;
+}
+.box {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#Contact h3 {
+  text-align: center;
+}
+#Contact p {
+  width: 80%;
+  text-align: center;
+  margin: 10px auto;
+}
+.textarea {
+  height: 170px;
+  width: 100%;
+  border: 0.1px solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top:10px;
+}
+.textarea:hover {
+  border: 0.1px solid blue;
+}
+.submit_default {
+  background-color: blue;
+  color: white;
+  align-self: center;
+  height: 40px;
+  width: 90px;
+  border-radius: 10px;
+  border: 0px;
+  align-self: flex-end;
+}
+#info {
+  width: 280px;
+}
+#message {
+  width: 400px;
+}
+.inputbox {
+  width: 100%;
+  border: 0.1px solid;
+  border-radius: 10px;
+  height: 25px;
+  padding: 5px;
+  margin-top: 5px;
+}
+.inputbox:hover {
+  border: 0.1px solid blue;
+}
+label {
+  font-size: 14px;
+  margin: 10px 10px;
+}
+#About {
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.dp {
+  margin: 10px 10px;
+}
+.circular--portrait img:hover {
+  transform: scale(1.01);
+}
+.circular--portrait {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.2s;
+}
+#aboutme {
+  width: 70%;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 3px;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #Banner {
+        height: 100vh;
+        background-size: cover;
+        background-position: center, center;
+      }
+      #Banner p{
+        font-size: 14px;
+    padding: 30px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #Contact {
+        height: 650px;
+        padding: 10px;
+      }
+      .textarea{
+          width: 80%;
+      }
+      #message {
+        width: 360px;
+      }
+      #info{
+          width:300px;
+      }
+      #aboutme{
+          width:80%;
+      }
+      #logo{
+        visibility: collapse;
+        width: 0px;
+      }
+}
+@media only screen and (max-width: 340px) {
+    #message{
+        padding-left: 0px;
+        width: 300px;
+    }
+    #data{
+    width: 99%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    nav{
+        font-size: 12px;
+    }
+    nav ul{
+        margin-left:-100px;
+    }
+    #Banner p{
+        font-size: 14px;
+    padding: 30px;
+    }
+}
+@media only screen and (max-width: 972px) {
+    #Banner{
+        background-size: 100% 100%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #message{
+        width: 350px;
+    }
+    #Banner p{
+        font-size: 14px;
+    padding: 30px;
+    }
+
+}
